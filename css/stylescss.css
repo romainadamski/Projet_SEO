@@ -301,7 +301,7 @@ footer .partenaire ul li{
   font-size: 1rem; }
 
 .map-image {
-  width: 100%;
+  width: 90%;
   max-width: 700px; /* ou la taille que tu préfères */
   height: auto;
   display: block;
