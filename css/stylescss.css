@@ -300,4 +300,13 @@ footer .partenaire ul li{
 .article .infoBlog {
   font-size: 1rem; }
 
+.map-image {
+  width: 100%;
+  max-width: 800px; /* ou la taille que tu préfères */
+  height: auto;
+  display: block;
+  margin: 30px auto; /* espace autour et centrage */
+  border-radius: 10px; /* optionnel, ça rend l’image plus douce visuellement */
+}
+
 /*# sourceMappingURL=stylescss.css.map */
