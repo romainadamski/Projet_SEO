@@ -25,14 +25,22 @@
 	<link rel="stylesheet"  href="webfonts/all.css">
 	
 <!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-39RLFYST27"></script>
-		<script>
-  			window.dataLayer = window.dataLayer || [];
-  			function gtag(){dataLayer.push(arguments);}
- 			 gtag('js', new Date());
+		<!-- Google tag (gtag.js) - chargement différé -->
+<script>
+  window.addEventListener('load', function () {
+    var gtmScript = document.createElement('script');
+    gtmScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-39RLFYST27';
+    gtmScript.async = true;
+    document.head.appendChild(gtmScript);
 
-  			gtag('config', 'G-2CWG75PS28');
-		</script>
+    gtmScript.onload = function () {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-2CWG75PS28');
+    };
+  });
+</script>
 
 </head>
 <body>
