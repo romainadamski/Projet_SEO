@@ -31,17 +31,15 @@
 	<!-- Google tag (gtag.js) différé -->
 <script src="monfichier.js"></script>
 	
-  window.addEventListener('load', function() {
-    var gtagScript = document.createElement('script');
-    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-39RLFYST27';
-    gtagScript.async = true;
-    document.head.appendChild(gtagScript);
+ <!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-39RLFYST27"></script>
+		<script>
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+ 			 gtag('js', new Date());
 
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-2CWG75PS28');
-  });
+  			gtag('config', 'G-2CWG75PS28');
+		</script>
 
 </head>
 <body>
