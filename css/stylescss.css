@@ -19,16 +19,21 @@ body {
     body a:hover {
       color: #5eab99;
       text-decoration: none; }
-  body .btn-custom {
-    background: #e96b55;
-    border: 2px solid #e96b55;
-    border-radius: 25px;
-    color: #ffffff;
-    font-weight: 600;
-    text-transform: uppercase; }
-    body .btn-custom:hover {
-      border-color: #5eab99;
-      color: #5eab99; }
+body .btn-custom {
+  background: #e96b55;        /* Fond orange */
+  border: 2px solid #e96b55;  /* Bordure orange */
+  border-radius: 25px;
+  color: #ffffff;             /* Texte blanc */
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 0.3s ease;  /* Douce transition au hover */
+}
+
+body .btn-custom:hover {
+  background: #5eab99;        /* Fond vert */
+  border-color: #5eab99;      /* Bordure verte */
+  color: #ffffff;             /* Texte blanc */
+}
   body .container-fluid {
     padding: 0; }
     body .container-fluid aside {
