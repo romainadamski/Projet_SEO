@@ -315,7 +315,6 @@ footer .partenaire ul li{
 }
 
 .titre-film {
-  color: ffffff;
+  color: white !important;
 }
-
 /*# sourceMappingURL=stylescss.css.map */
