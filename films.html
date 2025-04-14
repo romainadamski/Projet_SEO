@@ -32,15 +32,22 @@
 <script src="monfichier.js"></script>
 	
  <!-- Google tag (gtag.js) -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-39RLFYST27"></script>
-		<script>
-  			window.dataLayer = window.dataLayer || [];
-  			function gtag(){dataLayer.push(arguments);}
- 			 gtag('js', new Date());
+	<script>
+         window.addEventListener('load', function () {
+          var script = document.createElement('script');
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=G-39RLFYST27';
+          script.async = true;
+          document.head.appendChild(script);
 
-  			gtag('config', 'G-2CWG75PS28');
-		</script>
-
+          script.onload = function () {
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){ dataLayer.push(arguments); }
+           gtag('js', new Date());
+           gtag('config', 'G-2CWG75PS28');
+         };
+      });
+	
+      </script>
 </head>
 <body>
 
