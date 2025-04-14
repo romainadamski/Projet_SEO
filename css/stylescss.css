@@ -314,4 +314,8 @@ footer .partenaire ul li{
   border-radius: 10px; /* optionnel, ça rend l’image plus douce visuellement */
 }
 
+.titre-film {
+  color: white;
+}
+
 /*# sourceMappingURL=stylescss.css.map */
