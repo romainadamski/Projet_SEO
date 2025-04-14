@@ -20,10 +20,10 @@ body {
       color: #5eab99;
       text-decoration: none; }
   body .btn-custom {
-    background: transparent;
+    background: #e96b55;
     border: 2px solid #e96b55;
     border-radius: 25px;
-    color: #e96b55;
+    color: #ffffff;
     font-weight: 600;
     text-transform: uppercase; }
     body .btn-custom:hover {
